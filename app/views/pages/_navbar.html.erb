@@ -12,22 +12,22 @@
       <ul class="navbar-nav me-auto">
         <%# if user_signed_in? %>
           <li class="nav-item active">
-            <%= link_to "Home", "#", class: "nav-link" %>
+            <%= link_to "Home", root_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "about", "#", class: "nav-link" %>
+            <%= link_to "about", about_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "team", "#", class: "nav-link" %>
+            <%= link_to "team", team_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "services", "#", class: "nav-link" %>
+            <%= link_to "services", services_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "products", "#", class: "nav-link" %>
+            <%= link_to "products", products_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "contact", "#", class: "nav-link" %>
+            <%= link_to "contact", contact_path, class: "nav-link" %>
           </li>
       </ul>
     </div>
