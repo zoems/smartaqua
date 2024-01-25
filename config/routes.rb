@@ -11,7 +11,6 @@ Rails.application.routes.draw do
 
   get "about", to: "pages#about"
   get "landing", to: "pages#landing"
-  get "team", to: "pages#team"
   get "services", to: "pages#services"
   get "products", to: "pages#products"
   get "contact", to: "pages#contact"

@@ -1,4 +1,3 @@
-
 #video-background {
   position: fixed;
   top: 0;
@@ -18,6 +17,14 @@
   z-index: 1;
 }
 
+// background image
+.landing {
+  background-image: url('http://smartaqua.com.au/wp-content/uploads/2024/01/Screenshot-2024-01-25-at-11.39.35.png');
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-size: cover; /* Cover the entire container */
+  background-position: center;
+}
+
 .landing .logo {
   display: flex;
   flex-direction: column;
@@ -32,22 +39,25 @@
   filter: drop-shadow(5px 5px 5px #222);
 }
 
-// .bannercontent {
-//   display: flex;
-//   padding: 26px 50px;
-//   justify-content: center;
-//   align-items: center;
-//   gap: 10px;
-//   // background: rgba(0, 0, 0, 0.53);
-//   z-index: 1;
-// }
-
-.bannercontent h1 {
-  font-size: 20px;
+.tagline {
+  font-size: 50px;
   color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-.nav {
-  justify-content: space-between;
+.landing-nav {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.landing-nav .item {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #FFF;
+  font-size: 40px;
+  color: white;
 }
