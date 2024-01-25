@@ -1,16 +1,17 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <div class="container-fluid">
-    <%= link_to "#", class: "navbar-brand" do %>
-      <%= image_tag "http://smartaqua.com.au/wp-content/uploads/2022/05/cropped-SMARTAQUA-LOGO-2.png" %>
-    <% end %>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="landing">
+  <video autoplay muted loop preload id="video-background">
+    <source src="https://smartaqua.com.au/wp-content/uploads/2022/05/Tuna-Great-Australian-Bight-2.mp4" type="video/mp4">
+  </video>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <div class="logo">
+    <img src="https://smartaqua.com.au/wp-content/uploads/2022/05/cropped-SMARTAQUA-logo2.png" alt="logo">
+    <h1>Solutions for Smarter Seafood Production</h1>
+  </div>
+    <%# <div class="bannercontent">
+    </div> %>
       <ul class="navbar-nav me-auto">
-        <%# if user_signed_in? %>
           <li class="nav-item active">
             <%= link_to "Home", root_path, class: "nav-link" %>
           </li>
@@ -30,6 +31,6 @@
             <%= link_to "contact", contact_path, class: "nav-link" %>
           </li>
       </ul>
-    </div>
-  </div>
+
+  #
 </div>
