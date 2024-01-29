@@ -2,7 +2,7 @@ import { Controller } from "@hotwired/stimulus"
 
 // Connects to data-controller="sidebar"
 export default class extends Controller {
-  static targets = ["nav", "main"]
+  static targets = ["nav", "main", "text", "plus"]
   connect() {
     console.log("Hello from our first Stimulus controller");
     console.log("hovering", this.navTarget);
@@ -10,13 +10,16 @@ export default class extends Controller {
 
   maximise(){
     this.navTarget.style.width = "250px";
-    this.mainTarget.style.marginLeft = "250px"
-
+    this.mainTarget.style.marginLeft = "250px";
+    this.textTarget.classList.remove("d-none");
+    this.plusTarget.classList.add("d-none");
   }
 
   minimise(event){
-    this.mainTarget.style.marginLeft = "50px"
+    this.mainTarget.style.marginLeft = "50px";
     this.navTarget.style.width = "50px";
+    this.textTarget.classList.add("d-none");
+    this.plusTarget.classList.remove("d-none");
   }
 }
 

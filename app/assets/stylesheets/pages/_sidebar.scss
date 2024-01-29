@@ -9,6 +9,9 @@
   overflow: hidden;
   white-space: nowrap;
   transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar a {
@@ -17,6 +20,7 @@
   font-size: 25px;
   color: #818181;
   display: block;
+
   }
 
 .sidebar a:hover {
@@ -28,9 +32,27 @@
 vertical-align: middle;
 }
 .material-icons {
-padding-bottom: 3px;
-margin-right: 30px;
+  font-size: 25px;
+  color: rgb(129, 129, 129);
+  box-shadow: 0 0 0 0 rgba(129, 129, 129, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
 }
 
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(129, 129, 129, 0.7);
+	}
 
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(129, 129, 129, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(129, 129, 129, 0);
+	}
+}
 // dont forget to add the div with id main around all pages with sidebar

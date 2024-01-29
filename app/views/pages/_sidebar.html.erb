@@ -1,17 +1,20 @@
 <div class="sidebar" data-action="mouseover->sidebar#maximise mouseout->sidebar#minimise" data-sidebar-target="nav">
-      <a class="">
-        <%= link_to "Home", root_path %>
-      </a>
-      <a class="">
-        <%= link_to "about", about_path %>
-      </a>
-      <a class="">
-        <%= link_to "services", services_path %>
-      </a>
-      <a class="">
-        <%= link_to "products", products_path %>
-      </a>
-      <a class="">
-        <%= link_to "contact", contact_path %>
-      </a>
+  <div class="text d-none" data-sidebar-target="text">
+    <a class="">
+      <%= link_to "Home", root_path %>
+    </a>
+    <a class="">
+      <%= link_to "about", about_path %>
+    </a>
+    <a class="">
+      <%= link_to "services", services_path %>
+    </a>
+    <a class="">
+      <%= link_to "products", products_path %>
+    </a>
+    <a class="">
+      <%= link_to "contact", contact_path %>
+    </a>
   </div>
+  <i class="fa-solid fa-plus material-icons" data-sidebar-target="plus"></i>
+</div>
