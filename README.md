@@ -13,4 +13,5 @@ The website is aimed towards companies and individuals looking to contact Smarta
 </ul>
 
 <a href="https://www.figma.com/file/BeCOVA9uNoD9LXvsoXHam8/Smart-Aqua?type=design&node-id=6-4&mode=design&t=S2WC12dbDRdw920R-0">Designed with Figma </a>
+<r>
 <a href="">A Rails Web Application</a>
