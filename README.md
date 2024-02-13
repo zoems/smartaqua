@@ -1,6 +1,6 @@
 <h1>A Freelance project for Smartaqua Aquaculture consultants.</h1>
-<h2>A company focusing on sustainable traceable fishing practicises.
-The website is aimed towards companies and individuals looking to contact Smartaqua Consultants.</h2>
+<p>A company focusing on sustainable traceable fishing practicises.
+The website is aimed towards companies and individuals looking to contact Smartaqua Consultants.</p>
 
 <h3>Focus:</h3>
 <ul> 
