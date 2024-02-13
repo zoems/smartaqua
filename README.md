@@ -1,3 +1,13 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Countdown to February 29, 2024</title>
+</head>
+<body>
+
 <h1>A Freelance project for Smartaqua Aquaculture consultants.</h1>
 <p>A company focusing on sustainable traceable fishing practicises.
 The website is aimed towards companies and individuals looking to contact Smartaqua Consultants.</p>
@@ -38,3 +48,5 @@ var x = setInterval(function() {
 }, 86400000); // Update once per day (24 hours * 60 minutes * 60 seconds * 1000 milliseconds)
 
 </script>
+</body>
+</html>
