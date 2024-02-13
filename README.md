@@ -15,3 +15,8 @@ The website is aimed towards companies and individuals looking to contact Smarta
 <a href="https://www.figma.com/file/BeCOVA9uNoD9LXvsoXHam8/Smart-Aqua?type=design&node-id=6-4&mode=design&t=S2WC12dbDRdw920R-0">Designed with Figma </a> 
 <br>
 <a href="">A Rails Web Application</a>
+
+The site will be live soon! 
+Countdown
+
+<iframe src="https://cdn.rawgit.com/sarathsaleem/countdownjs/master/countdown.html?eventDate=2024-02-29"></iframe>
