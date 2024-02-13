@@ -16,7 +16,25 @@ The website is aimed towards companies and individuals looking to contact Smarta
 <br>
 <a href="">A Rails Web Application</a>
 
-The site will be live soon! 
-Countdown
+<h1>Countdown to Site Launch February 29, 2024</h1>
+<p id="countdown"></p>
 
-<iframe src="https://cdn.rawgit.com/sarathsaleem/countdownjs/master/countdown.html?eventDate=2024-02-29"></iframe>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("February 29, 2024 00:00:00").getTime();
+
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    
+  document.getElementById("countdown").innerHTML = days + " days ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 86400000); // Update once per day (24 hours * 60 minutes * 60 seconds * 1000 milliseconds)
+
+</script>
