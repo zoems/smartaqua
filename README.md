@@ -1,13 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Countdown to February 29, 2024</title>
-</head>
-<body>
-
 <h1>A Freelance project for Smartaqua Aquaculture consultants.</h1>
 <p>A company focusing on sustainable traceable fishing practicises.
 The website is aimed towards companies and individuals looking to contact Smartaqua Consultants.</p>
@@ -26,27 +17,3 @@ The website is aimed towards companies and individuals looking to contact Smarta
 <br>
 <a href="">A Rails Web Application</a>
 
-<h1>Countdown to Site Launch February 29, 2024</h1>
-<p id="countdown"></p>
-
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("February 29, 2024 00:00:00").getTime();
-
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-    
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    
-  document.getElementById("countdown").innerHTML = days + " days ";
-    
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
-  }
-}, 86400000); // Update once per day (24 hours * 60 minutes * 60 seconds * 1000 milliseconds)
-
-</script>
-</body>
-</html>
