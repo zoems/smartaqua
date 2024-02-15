@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.1.2"
+ruby "3.1.4"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
@@ -76,3 +76,6 @@ group :test do
 end
 
 gem "cloudinary"
+
+gem "sidekiq", "< 7"
+gem "sidekiq-failures", "~> 1.0"
