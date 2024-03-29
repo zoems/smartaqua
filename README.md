@@ -17,3 +17,5 @@ The website is aimed towards companies and individuals looking to contact Smarta
 <br>
 <a href="">A Rails Web Application</a>
 
+
+#In Progress
